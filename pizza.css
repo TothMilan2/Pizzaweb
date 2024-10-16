@@ -4,6 +4,10 @@ body{
     background-color: black;
     color: white;
 }
+
+/*Fejléc*/
+
+
 .fejlec{
         background-image: url(47sa3d.jpg);
         height: 590px;
@@ -14,7 +18,7 @@ body{
 nav{
     
     margin-top: 280px;
-    margin-left: 840px;
+    margin-left: 1040px;
     text-align: right;
     text-transform: uppercase ;
     font-size: smaller;
@@ -25,7 +29,7 @@ nav{
     
 }
 nav a{
-    
+    color: white;
     text-decoration: none;
     
 }
@@ -42,22 +46,37 @@ nav a:hover{
     font-size: 1.6rem;
 }
 
+
+
+
+/*Tartalom*/
+
+
+
 .tortenet{
     
-    background-color: rgb(53, 52, 52);
-    text-align: left;
+    background-color: rgb(41, 40, 40);
+    text-align: left!important;
     margin-top: -270px;
     height: 260px;
-    padding-left: 280px;
-    padding-right: 280px;
+    padding-left: 270px;
+    padding-right: 270px;
     
 }
 #nev,#foglal{
     text-transform: uppercase;
 }
-#torszov,#nev{
+#toral,#nev{
     text-align: left;
-    margin-left: 400px;
+    
+    
+}
+#toral{
+    margin-left: 160px;
+
+}
+#torszov,#foglal{
+    margin-left: 260px;
 }
 
 .menu{
@@ -70,6 +89,28 @@ nav a:hover{
 
 
 .specialitas{
-    background-color: rgb(53, 52, 52);
+    background-color: rgb(41, 40, 40);
     height: 400px;
 }
+button{
+    margin-top: 40px;
+    height: 45px;
+    width: 130px;
+    border-radius: 0;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(31, 30, 30);
+    transition-duration: 300ms;
+}
+.b2{
+    margin-right: 20px ;
+    margin-left: 20px;
+}
+
+
+/*Footer*/
