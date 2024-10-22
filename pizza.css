@@ -157,6 +157,8 @@ button:hover{
 
 .specialitas{
   text-align: center;
+ 
+  
 }
 #fopizza{
     position: absolute;
@@ -166,10 +168,10 @@ button:hover{
 }
 .balkeret{
     position: relative;
-    padding: 50px;
+    
     width: 600px;
     height: 700px;
-    margin-left: 330px;
+    
 }
 .jobbkeret{
     width: 600px;
@@ -204,24 +206,26 @@ img{
 
 
 
-footer{
+.footer{
   background-color: rgb(15, 15, 15);
   height: 700px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  column-gap: 30px;
  
 }
 table{
     margin: auto;
     height: 400px;
     width: 250px;
-    
+    margin: 0;
     border-spacing: 20px;
     text-align: left;
 }
 table td{
     border: 1px;
+    border-color: rgb(139, 138, 138);
     border-left: 0;
     border-right: 0;
     border-top: 0;
@@ -229,9 +233,43 @@ table td{
 }
 
 .probald{
-    justify-content: right;
+    text-align: left;
+    height: 600px;
+    width: 300px;
 }
-.szeretettel h1{
-    text-align: right;
+.szeretettel{
+  height: 600px;
+  width: 400px;
+  text-align: right;
+  letter-spacing: 1px;
+  font-size: smaller;
    
+}
+.nyitvatart{
+  height: 600px;
+}
+.nyitvatart h4{
+  margin-left: 10px;
+  
+}
+
+#foglink{
+  color: white;
+  font-size: larger;
+}
+.footercim{
+  border-top: 1px;
+  border-color: rgb(139, 138, 138);
+  border-bottom: 0;
+  border-left:0 ;
+  border-right: 0;
+  border-style: solid;
+  padding-left: 320px;
+  padding-right: 320px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
 }
