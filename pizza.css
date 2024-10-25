@@ -155,44 +155,61 @@ button:hover{
 
 /*harmadik div*/
 
-.specialitas{
+.speckeret{
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  height:100vh;
+  align-items: center;
+  justify-content: space-between;
+  
  
   
 }
+.specialitas{
+  text-align: center;
+  
+}
 #fopizza{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
+    width: 80%;
 }
 .balkeret{
     position: relative;
     
-    width: 600px;
-    height: 700px;
+    width: 700px;
+    height: 800px;
+    margin-left: 40px;
     
 }
 .jobbkeret{
-    width: 600px;
+    width: 400px;
     position: relative;
-    height: 700px;
+    height: 800px;
     float: right;
-    margin-top: -800px;
-}
-#gomba{
-    position: absolute;
-    top: 300px; 
-    left: 0;
     
 }
-#kolbasz{
-  margin-top: 200px;
-  position: absolute;
-  margin-left: 10px;
+#gomba{
+    position: relative;
+    width: 40%;
+    height: auto;   
+    top: 20px;
 }
-img{
-  width: 300px;
+#kolbasz{
+  position: relative;
+  height: 29%;
+  top: 20px;
+}
+#paradicsom{
+  width: 50%;
+  position: relative;
+  
+  
+}
+#steak{
+  
+  width: 50%;
+  height: 60%;
+ 
 }
 
 
@@ -213,6 +230,7 @@ img{
   align-items: center;
   justify-content: center;
   column-gap: 30px;
+  margin-left: -35px;
  
 }
 table{
