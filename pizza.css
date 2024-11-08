@@ -161,9 +161,9 @@ button:hover{
   text-align: center;
   display: flex;
   flex-direction: row;
-  height:100vh;
+  height:60%;
   align-items: center;
-  justify-content: space-between;
+  gap: 50px;
   
   
  
@@ -173,19 +173,27 @@ button:hover{
   text-align: center;
   background-color: #1b1b1b;
   
+  
+  
+}
+.specialitas h1,h5{
+  font-weight: lighter;
 }
 #fopizza{
     width: 100%;
     position: relative;
     float: left;
     
+    
 }
 .balkeret{
     position: relative;
     width: 480px;
     height: 800px;
-    margin-left: 160px;
+   margin-left: 250px;
+    
 
+   
 }
 .jobbkeret{
     width: 400px;
@@ -194,30 +202,33 @@ button:hover{
     float: right;
     display: flex;
     flex-direction: column;
-    
     gap: 30px;
+    align-items: left;
+    
     
 }
 #gomba{
     position: relative;
     object-fit: cover;
-    width: 55%;
-    object-position: -10% 20%;
+    width: 50%;
+    height: 20%;
+    box-shadow: #1b1b1b;
     top: 20px;
     float: left;
+    
 }
 #kolbasz{
   position: relative;
-  width: 45%;
+  width: 40%;
+  
   top: 20px;
   float: right;
   
+  
 }
 #paradicsom{
-  width: 40%;
-  height: 20%;
-  margin-right: auto;
-  margin-left: 20px;
+  width: 50%;
+  height: 15%;
   object-fit:cover;
   position: relative;
   
@@ -307,4 +318,5 @@ table td{
   text-align: center;
   justify-content: center;
   background-color: black;
+  font-size: 0.7rem;
 }
