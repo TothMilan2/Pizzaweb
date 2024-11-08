@@ -17,8 +17,8 @@ header{
     background-repeat: no-repeat;
     min-height: inherit;
     display: flex;
-    position: static;
-    background-position-y: 0%;
+
+
     
 }
 #cim{
@@ -319,4 +319,17 @@ table td{
   justify-content: center;
   background-color: black;
   font-size: 0.7rem;
+}
+
+
+
+
+@media only sceen and (max-width:810px){
+  header{
+    background-position: 50% bottom;
+  }
+  .left-column{
+    margin-left: 0px;
+    
+  }
 }
