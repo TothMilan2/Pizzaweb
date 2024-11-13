@@ -16,7 +16,10 @@ header{
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: inherit;
+    
     display: flex;
+    
+    
 
 
     
@@ -160,8 +163,9 @@ button:hover{
 .speckeret{
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(10, 120px) ;
-  grid-template-rows: repeat(10,200px);
+  margin-left: 100px;
+  grid-template-columns: repeat(20, 100px) ;
+  grid-template-rows: repeat(20,100px);
   
   
   
@@ -177,48 +181,49 @@ button:hover{
 .specialitas{
   text-align: center;
   background-color: #1b1b1b;
+  height: 100vh;
 }
 .specialitas h1,h5{
   font-weight: lighter;
 }
 #fopizza{
     
-    grid-column-start: 1;
-    grid-column-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 9;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 5;
     
 }
 
 
 #gomba{
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 7;
 
     
 }
 #kolbasz{
-  grid-column-start: 3;
-  grid-column-end: 6;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 5;
+  grid-row-end: 7;
   
 }
 #paradicsom{
 
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-column-start: 9;
+  grid-column-end: 12;
+  grid-row-start: 6;
+  grid-row-end: 8;
   
 }
 #steak{
-  grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-start: 9;
+  grid-column-end: 12;
   grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 6;
 }
 
 
@@ -234,7 +239,7 @@ button:hover{
 
 .footer{
   
-  height: 700px;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -269,6 +274,7 @@ table td{
   width: 400px;
   text-align: right;
   letter-spacing: 1px;
+  margin-left: -50px;
   font-size: smaller;
    
 }
@@ -294,6 +300,7 @@ table td{
   height: 200px;
   margin: auto;
   width: 50%;
+  margin-top: 124px;
   display: flex;
   align-items: center;
   text-align: center;
