@@ -11,12 +11,11 @@ header{
     text-transform: uppercase;
     background-image: url(mainpizza.jpg);
     background-size: cover;
-    background-position: 50% -150%;
+    background-position: fixed;
     max-width: inherit;
     background-size: 100%;
     background-repeat: no-repeat;
-    min-height: inherit;
-    
+    min-height: 800px;
     display: flex;
     
     
@@ -35,9 +34,9 @@ header{
 nav{
     text-align: right;
     margin-right: 10px;
-  
-    position: absolute;    
-    right: 40px;
+    width: 100%;
+    position: relative;    
+    height: fit-content;
     top: 30px;
     font-size: larger;
 }
@@ -72,7 +71,7 @@ nav a:hover{
 /*elso div*/
 .tortenet{
     display: flex;
-    object-position: 50% -50%;
+   
     justify-content: space-between;
     background-color: #1b1b1b;
     color: #fff;
@@ -163,7 +162,7 @@ button:hover{
 .speckeret{
   text-align: center;
   display: grid;
-  margin-left: 100px;
+  margin-left: 0px;
   grid-template-columns: repeat(20, 100px) ;
   grid-template-rows: repeat(20,100px);
   
@@ -312,10 +311,16 @@ table td{
 
 
 
-@media only sceen and (max-width:810px){
+@media only screen and (max-width: 996px) {
+
   header{
-    background-position: 50% bottom;
+    background-position: 50% 30%;
+    background-size: cover;
+
+   
   }
+
+
   .left-column{
     margin-left: 0px;
     
