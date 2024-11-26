@@ -236,7 +236,7 @@ button:hover{
 
 
 
-
+/*Footer*/
 
 .footer{
   
@@ -417,7 +417,7 @@ table td{
 }
 @media only screen and (max-width: 896px) {
   #fopizza{
-    
+  
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 1;
@@ -432,6 +432,7 @@ table td{
   grid-row-start: 4;
   grid-row-end: 6;
   width: 90%;
+  
     
 }
 
@@ -443,6 +444,7 @@ table td{
   grid-row-start: 4;
   grid-row-end: 6;
   width: 73%;
+  
 }
 #paradicsom{
 
@@ -460,13 +462,216 @@ table td{
  
 }
 
+}
+
+@media only screen and (max-width: 823px) {
+  .speckeret{
+    padding-left: 0;
+  }  
+}
+
+@media only screen and (max-width: 796px) {
+  #fopizza{
+    margin-left: 1rem;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    
+}
 
 
+#gomba{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  width: 90%;
+  margin-left: 1rem;
+    
+}
+
+
+
+#kolbasz{
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  width: 80%;
+  margin-left: 1rem;
+}
+#paradicsom{
+  margin-left: -1rem;
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 5;
+  grid-row-end: 7;
+  width: 80%;
+  
+}
+#steak{
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  margin-left: -1rem;
+  width: 80%;
+}
 
 }
 
-@media only screen and(max-width: 712px){
-  nav a{
-    
+
+@media only screen and (max-width: 723px) {
+  .speckeret{
+    padding-left: 0;
+  }  
+}
+
+@media only screen and (max-width: 750px) {
+  .specialitas{
+    height: 140vh;
   }
+  
+  #fopizza{
+    margin-left: 10%;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    width: 100%;
+}
+
+
+#gomba{margin-left: 13%;
+  
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  width: 60%;
+    
+}
+
+
+
+#kolbasz{
+  margin-left: 13%;
+  grid-column-start: 4;
+  grid-column-end: 8;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  width: 75%;
+}
+#paradicsom{
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 6;
+  grid-row-end: 10;
+  
+}
+#steak{
+  
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 10;
+ 
+}
+}
+@media only screen and (max-width: 457px) {
+  #fopizza{
+    margin-left: 0;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    width: 100%;
+}
+
+
+#gomba{
+  margin-left: 0;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  width: 100%;
+    
+}
+
+
+
+#kolbasz{
+  margin-left: 0;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 7;
+  grid-row-end: 10;
+  width: 100%;
+}
+#paradicsom{
+  margin-left: 0;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 14;
+  grid-row-end: 16;
+  
+}
+#steak{
+  margin-left: 0;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 10;
+  grid-row-end: 14;
+ 
+}
+}
+
+@media only screen and (max-width: 666px) {
+  #fopizza{
+    margin-left: 0;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    width: 100%;
+}
+
+
+#gomba{
+  margin-left: 0;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  width: 60%;
+    
+}
+
+
+
+#kolbasz{
+  margin-left: 0;
+  grid-column-start: 4;
+  grid-column-end: 8;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  width: 75%;
+}
+#paradicsom{
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 6;
+  grid-row-end: 10;
+  margin-left: 10%;
+}
+#steak{
+  margin-left: 10%;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 10;
+ 
+}
 }
