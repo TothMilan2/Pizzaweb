@@ -10,7 +10,7 @@
 <body>
     <header>
         <h1 id="cim">Pizzéria</h1>
-        <nav>
+        <nav id="myLinks">
             <a href="">Kezdőlap / </a>
             <a href=""> Menü /</a>
             <a href=""> Rólunk /</a>
@@ -18,6 +18,9 @@
             
             
         </nav>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
         
     </header>
 
@@ -131,5 +134,15 @@
                             Az oldalt a webnode üzemelteti</div>
     </footer>
     
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
 </body>
 </html>
