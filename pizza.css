@@ -4,6 +4,8 @@ body{
     min-height: 100vh;
     color: white;
     text-decoration: none;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 /*Header*/
@@ -23,14 +25,45 @@ header{
     
 }
 
-.icon{
-  height: fit-content;
- 
+.line{
+  background-color: white;
+  position: absolute;
+  height: 6px;
+  width: 38px;
+  transition: 0.5s;
+  border-radius: 2px;
+  right: 5px;
+  display: none;
+}
+.line:nth-child(1) { top: 12px; }
+.line:nth-child(2) { top: 24px; }
+.line:nth-child(3) { top: 36px; }
 
- 
+
+.hamburger-menu{
+  background-color: rgb(78, 77, 77);
+  margin-top: 10%;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-align: center;
+  gap: 20px;
+  padding-top: 10px;
+  height: 20vh;
+  display: none;
+}
+.hamburger-menu a{
+  text-decoration: none;
+  color: white;
+}
+#hamburger:checked + .hamburger .line:nth-child(2){
+  opacity:0;
 }
 
-
+#hamburger:checked + .hamburger .line:nth-child(3){
+  transform: translateY(-12px) rotate(45deg);
+}
 #cim{
     text-align: left;
     left: 20px;
@@ -41,12 +74,13 @@ header{
 }
 nav{
     text-align: right;
-    margin-right: 1.5rem;
+    margin-right: 5%;
     width: 100%;
     position: relative;    
     height: fit-content;
     top: 30px;
     font-size: larger;
+  
 }
 nav a {
     text-decoration: none;
@@ -66,6 +100,9 @@ nav a:hover{
     transition-duration: 400ms;
 }
 
+#myLinks{
+  height: 20vh;
+}
 /*Main*/
 
 .main{
@@ -80,7 +117,7 @@ nav a:hover{
 /*elso div*/
 .tortenet{
     display: flex;
-  
+
     justify-content: space-between;
     background-color: #1b1b1b;
     color: #fff;
@@ -88,7 +125,7 @@ nav a:hover{
     padding-left: 0px;
     padding-right: 0px;
     height: 270px;
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
     gap: 20px;
 }
@@ -101,6 +138,7 @@ nav a:hover{
   
   .right-column {
     max-width: 60%;
+    margin-right: 5%;
   }
   
   .left-column h1 {
@@ -430,9 +468,6 @@ table td{
 
 }
 @media only screen and (max-width: 896px) {
-  #myLinks{
-    display: none;
-  }
 
   #fopizza{
   
@@ -547,6 +582,14 @@ table td{
 }
 
 @media only screen and (max-width: 750px) {
+  nav a{
+    display: none;
+  }
+  .line{
+    display: block;
+  }
+  
+  
   .specialitas{
     height: 140vh;
   }
