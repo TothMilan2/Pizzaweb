@@ -216,7 +216,8 @@ button:hover{
   padding: 0;
   grid-template-columns: repeat(20, 100px) ;
   grid-template-rows: repeat(20,100px);
-  
+  grid-gap: 0;
+  height: inherit;
   
   
  
@@ -288,13 +289,14 @@ button:hover{
 /*Footer*/
 
 .footer{
-  
+ 
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   column-gap: 30px;
   margin-left: -35px;
+
  
 }
 table{
@@ -350,7 +352,7 @@ table td{
   height: 200px;
   margin: auto;
   width: 50%;
-  margin-top: 124px;
+  margin-top: 0;
   display: flex;
   align-items: center;
   text-align: center;
@@ -591,53 +593,111 @@ table td{
   
   
   .specialitas{
-    height: 140vh;
+    height: 80vh;
   }
-  
+  .footer{
+    justify-content: flex-start;
+    column-gap: 0;
+  }
+
   #fopizza{
-    margin-left: 10%;
-    grid-column-start: 1;
-    grid-column-end: 7;
+    margin-left: 1rem;
+    grid-column-start: 2;
+    grid-column-end: 6;
     grid-row-start: 1;
-    grid-row-end: 4;
-    width: 100%;
+    grid-row-end: 3;
+    
 }
 
 
-#gomba{margin-left: 13%;
-  
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 4;
-  grid-row-end: 6;
-  width: 60%;
+#gomba{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  width: 83%;
+  margin-left: 1rem;
     
 }
 
 
 
 #kolbasz{
-  margin-left: 13%;
   grid-column-start: 4;
-  grid-column-end: 8;
-  grid-row-start: 4;
-  grid-row-end: 6;
-  width: 75%;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  width: 140%;
+  margin-left: 1rem;
 }
 #paradicsom{
-  grid-column-start: 5;
-  grid-column-end: 8;
-  grid-row-start: 6;
-  grid-row-end: 10;
+  margin-left: -1rem;
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  width: 60%;
   
 }
 #steak{
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  margin-left: -1rem;
+  width: 60%;
+}
+
+
+}
+
+@media only screen and (max-width:700px){
+  #fopizza{
+    margin-left: 1rem;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+
+
+#gomba{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  width: 83%;
+  margin-left: 1rem;
+    
+}
+
+
+
+#kolbasz{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  width: 140%;
+  margin-left: 1rem;
+}
+#paradicsom{
+  margin-left: -1rem;
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  width: 60%;
   
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 6;
-  grid-row-end: 10;
- 
+}
+#steak{
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  margin-left: -1rem;
+  width: 60%;
 }
 }
 @media only screen and (max-width: 457px) {
@@ -693,49 +753,5 @@ table td{
   .left-column{
     margin-left: 5%;
   }
-  #fopizza{
-    margin-left: 0;
-    grid-column-start: 1;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    width: 100%;
-}
 
-
-#gomba{
-  margin-left: 0;
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 4;
-  grid-row-end: 6;
-  width: 60%;
-    
-}
-
-
-
-#kolbasz{
-  margin-left: 0;
-  grid-column-start: 4;
-  grid-column-end: 8;
-  grid-row-start: 4;
-  grid-row-end: 6;
-  width: 75%;
-}
-#paradicsom{
-  grid-column-start: 4;
-  grid-column-end: 7;
-  grid-row-start: 6;
-  grid-row-end: 10;
-  margin-left: 10%;
-}
-#steak{
-  margin-left: 10%;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 6;
-  grid-row-end: 10;
- 
-}
 }
