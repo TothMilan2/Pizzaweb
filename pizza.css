@@ -119,7 +119,6 @@ nav a:hover{
 /*elso div*/
 .tortenet{
     display: flex;
-
     justify-content: space-between;
     background-color: #1b1b1b;
     color: #fff;
@@ -744,52 +743,41 @@ table td{
   width: 60%;
 }
 }
-@media only screen and (max-width: 457px) {
+@media only screen and (max-width: 595px) {
+  
+  .specialitas{
+    height: fit-content;
+    display: flex;
+  }
   #fopizza{
-    margin-left: 0;
-    grid-column-start: 1;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 4;
+
     width: 100%;
+    position: absolute;
 }
 
 
 #gomba{
-  margin-left: 0;
-  grid-column-start: 1;
-  grid-column-end: 7;
-  grid-row-start: 4;
-  grid-row-end: 7;
+  
   width: 100%;
-    
+  position: absolute;
 }
 
 
 
 #kolbasz{
-  margin-left: 0;
-  grid-column-start: 1;
-  grid-column-end: 7;
-  grid-row-start: 7;
-  grid-row-end: 10;
+  
   width: 100%;
+  position: absolute;
 }
 #paradicsom{
-  margin-left: 0;
-  grid-column-start: 3;
-  grid-column-end: 6;
-  grid-row-start: 14;
-  grid-row-end: 16;
   
+  width: 100%;
+  position: absolute;
 }
 #steak{
-  margin-left: 0;
-  grid-column-start: 3;
-  grid-column-end: 6;
-  grid-row-start: 10;
-  grid-row-end: 14;
- 
+  
+  width: 100%;
+  position: absolute;
 }
 }
 
@@ -801,19 +789,19 @@ table td{
 }
 @media only screen and (max-width:599px){
   .tortenet{
+    display: flex;
     flex-direction: column;
     height: fit-content;
+    align-items: center;
   }
   .tortenet h1 .alcim{
-    text-align: right;
-    position: absolute;
-    right: 0;
+    
   }
   .left-column{
-    position: absolute;
-    right: 0;
+    margin: 0 ;
+    text-align: center;
   }
   .right-column{
-    margin-top: 50%;
+    margin: 0;
   }
 }
