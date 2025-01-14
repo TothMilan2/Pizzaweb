@@ -233,7 +233,8 @@ button:hover{
 .speckeret{
   text-align: center;
   display: grid;
-  margin-left: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
   padding: 0;
   grid-template-columns: repeat(auto-fit  , 100px) ;
   grid-template-rows: repeat(auto-fit,100px);
@@ -428,13 +429,17 @@ table td{
 
 
 }
-@media only screen and (max-width: 996px) {
-  
+@media only screen and (max-width:959px) {
+  .speckeret{
+    margin-right: 0;
+  }
 
 
 }
-@media only screen and (max-width: 896px) {
-
+@media only screen and (max-width: 469px) {
+  .footercim{
+    margin: 0;
+  }
   
 }
 
@@ -444,8 +449,11 @@ table td{
   }  
 }
 
-@media only screen and (max-width: 796px) {
- 
+@media only screen and (max-width: 968px) {
+
+  .speckeret{
+    margin-right: 10%;
+  }
 
 }
 
@@ -456,7 +464,7 @@ table td{
   }  
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 909px) {
   .hamburgericon{
     gap: 5px;
     position: relative;
@@ -532,11 +540,11 @@ table td{
 @media only screen and (max-width:700px){
   
 }
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 917px) {
   
-  .specialitas{
+  .speckeret{
 
-  
+    margin: 0;
   }
   
 
@@ -598,10 +606,10 @@ table td{
 }
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 1014px) {
 
-.specialitas{
-    
+.speckeret{
+      margin-left: 0;
   
   }
   
@@ -618,10 +626,10 @@ table td{
   }
 
 
-  @media only screen and (max-width: 428px) {
+  @media only screen and (max-width: 851px) {
 
-    .specialitas{
-        
+    .speckeret{
+        margin-right: 10%;
       
       }
       
@@ -634,7 +642,7 @@ table td{
     flex-direction: column;
     padding: 1rem;
     margin-left: 5%;
-  }
+  } 
   .probald{
     width: 320px;
   }
@@ -654,9 +662,13 @@ table td{
 
 
 
-@media only screen and (max-width:869px){
+@media only screen and (max-width:800px){
   .specialitas{
     height: fit-content;
+    
+  }
+  .speckeret{
+    margin: 0;
   }
   #fopizza{
     grid-column-start: 2;
@@ -698,7 +710,9 @@ table td{
   flex-shrink: 0;
 
 }   
+
 } 
+
 
 
 
@@ -715,6 +729,9 @@ table td{
       padding-bottom: 1.9rem;
     }
 } 
+
+
+
 
 
 
